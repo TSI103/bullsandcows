@@ -27,8 +27,8 @@ public class Controller {
         TurnResult tr = new TurnResult();
         tr.setTurnNr(currentTurn);
         tr.setGuess(guess);
-        tr.setBulls(5); // set proper calculated value
-        tr.setCows(14); // set proper calculated value
+        tr.setBulls(5); // TODO set proper calculated value
+        tr.setCows(14); // TODO set proper calculated value
         turnsTable.getItems().add(0, tr);
     }
 }
